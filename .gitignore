@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.key
+*.token
+config/local.toml
+cookies/
+cookie/
+*.cookie
+*.cookies
+*_login_qrcode_*.png
+
+# Real personal content
+jobs/*
+!jobs/.gitkeep
+
+# Codex temporary state
+.codex-run/
+
+# Generated local packages
+publish-packages/
+staging/
+publish-result.json
+
+# Logs and downloaded-file metadata
+*.log
+*:Zone.Identifier
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
